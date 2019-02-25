@@ -1,0 +1,15 @@
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 1199px;
+        margin: 0;
+    }
+    .navbar {
+    }
+    #section1 {
+        flex-basis: border-box;
+    }
+    #section2{
+        margin-left: 0;
+        width:100%;
+    }
+}
