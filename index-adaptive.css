@@ -1,9 +1,10 @@
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .wrapper {
-        width: 1199px;
+        width: 1024px;
         margin: 0;
     }
     .navbar {
+        width: 1024px;
     }
     #section1 {
         flex-basis: border-box;
@@ -11,5 +12,101 @@
     #section2{
         margin-left: 0;
         width:100%;
+    }
+    .about_us_upper {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+  .about_us_upper__element {
+      width: 300px;
+  }
+    .about_us_upper__element span {
+padding-right:20px ;
+    }
+    .about_us_bottom__element {
+        max-width: 460px;
+    }
+    .about_us_bottom__element img{
+        max-width: 460px;
+    }
+    .about_us_bottom{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .about_us_bottom_first{
+        margin-bottom: 20px;
+    }
+    .services_upper{
+        flex-wrap: wrap;
+        width: 1024px;
+        justify-content: space-around;
+    }
+    .services_element {
+        width: 220px;
+    }
+    .services_element img {
+        width: 220px;
+        height: 220px;
+    }
+    .services_upper a {
+        padding: 10px 14px;
+    }
+    .services_bottom{
+        width: 1024px;
+    }
+}
+@media (max-width: 768px) { /*position - 30*/
+    .wrapper {
+        max-width: 768px;
+        margin: 0;
+    }
+    .navbar {
+        width: 100%;
+    }
+    #section2{
+        margin-left: 0;
+        width:100%;
+    }
+    .about_us_upper__element {
+        width: 220px;
+    }
+.about_us_upper__element input{
+    margin: 20px 35px;
+}
+.about_us_upper__second input {
+margin: 0 35px;
+}
+    .about_us_bottom__element {
+        max-width: 345px;
+    }
+    .about_us_bottom__element img{
+        max-width: 345px;
+    }
+    .about_us_bottom{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .about_us_bottom_first{
+        margin-bottom: 20px;
+    }
+    .services_upper{
+        flex-wrap: wrap;
+        max-width: 768px;
+    }
+    .services_upper__fourth{
+        margin-top: 20px;
+    }
+    .services_element {
+        max-width: 345px;
+        margin: 10px 50px;
+    }
+    .services_bottom{
+       max-width: 768px;
+    }
+}
+@media (max-width: 375px) {
+    .wrapper {
+        max-width: 375px;
+        margin: 0;
     }
 }
