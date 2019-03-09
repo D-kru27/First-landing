@@ -36,9 +36,9 @@ h2 {
 	font-weight: 700;
 }
 
-/*body {*/
-/*overflow: hidden; !*Отображается только область внутри элемента, остальное будет скрыто.*!*/
-/*}*/
+.mobile-menu{
+	display: none;
+}
 
 .navbar {
 	display: flex;
