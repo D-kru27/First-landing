@@ -6,7 +6,16 @@ html, body {
     padding: 0;
     margin: 0;
 }
+<<<<<<< HEAD
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+=======
 
+>>>>>>> master
 body,
 h1,
 h2,
